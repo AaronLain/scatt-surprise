@@ -6,6 +6,10 @@ import './App.scss';
 
 import Auth from '../components/pages/Auth/Auth';
 import MyNavBar from '../components/shared/MyNavBar/MyNavBar';
+import EditScat from '../components/pages/EditScat/EditScat';
+import Home from '../components/pages/Home/Home';
+import SingleScat from '../components/pages/SingleScat/SingleScat';
+import NewScat from '../components/pages/NewScat/NewScat';
 
 import fbConnection from '../helpers/data/connection';
 
@@ -32,6 +36,10 @@ class App extends React.Component {
         <MyNavBar />
         <h2>HELLO THERE</h2>
         <Auth />
+        <EditScat />
+        <NewScat />
+        <SingleScat />
+        <Home />
         <button className="btn btn-success">CRAP</button>
       </div>
     );
